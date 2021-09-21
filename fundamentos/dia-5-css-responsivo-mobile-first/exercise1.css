@@ -1,0 +1,52 @@
+body {
+  font-size: large;
+  margin: 10px;
+  text-align: center;
+}
+h1 {
+  font-size: xx-large;
+}
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+  /* border: 1px solid red; */
+  text-align: center;
+  margin: 0 0 30px;
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    background-color: grey;
+    font-size: x-large;
+    margin: 20px;
+  }
+
+  h1 {
+    font-size: xxx-large;
+  }
+
+  figure {
+    float: left; /* Tive que usar o gabarito, não estava querendo usar float*/
+    width: 45%;
+    margin-right: 2.5%;
+    margin-left: 20px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  body {
+    background-color: rgb(209, 209, 209);
+    margin: 10%;
+    max-width: 70%;
+  }
+}
