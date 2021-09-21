@@ -85,4 +85,23 @@ header {
 
 }
 
+@media screen and (min-width: 601px) and (max-width: 1920px) {
+  .main-content p {
+    max-width: 70%;
+  }
+
+  footer {
+    order: 2;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aside-two {
+    order: 1;
+  }
+
+}
 
